@@ -6,7 +6,7 @@ from expecter import expect
 
 from click.testing import CliRunner
 
-from {{cookiecutter.package_name}}.cli import main
+from Homomorphic_Encryption.cli import main
 
 
 @pytest.fixture

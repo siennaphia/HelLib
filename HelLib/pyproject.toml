@@ -1,18 +1,18 @@
 [tool.poetry]
 
-name = "{{cookiecutter.project_name}}"
+name = "HelLib"
 version = "0.0"
-description = "{{cookiecutter.project_short_description}}"
+description = "Library optimizing PySeal for PFGA parallel processing"
 
-packages = [{ include = "{{cookiecutter.package_name}}" }]
+packages = [{ include = "Homomorphic_Encryption" }]
 
 license = "MIT"
-authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+authors = ["Group 8 <sgaitamonjar2019@fau.edu>"]
 
 readme = "README.md"
-homepage = "https://pypi.org/project/{{cookiecutter.project_name}}"
-documentation = "https://{{cookiecutter.project_name}}.readthedocs.io"
-repository = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}"
+homepage = "https://pypi.org/project/HelLib"
+documentation = "https://HelLib.readthedocs.io"
+repository = "https://github.com/siennaphia/HelLib"
 
 keywords = [
 ]
@@ -22,13 +22,13 @@ classifiers = [
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
-    "Programming Language :: Python :: {{cookiecutter.python_major_version}}",
-    "Programming Language :: Python :: {{cookiecutter.python_major_version}}.{{cookiecutter.python_minor_version}}",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
 ]
 
 [tool.poetry.dependencies]
 
-python = "^{{cookiecutter.python_major_version}}.{{cookiecutter.python_minor_version}}"
+python = "^3.6"
 
 # TODO: Remove these and add your library's requirements
 click = "*"
@@ -71,7 +71,7 @@ ipython = "^7.12.0"
 
 [tool.poetry.scripts]
 
-{{cookiecutter.project_name}} = "{{cookiecutter.package_name}}.cli:main"
+HelLib = "Homomorphic_Encryption.cli:main"
 
 [tool.black]
 

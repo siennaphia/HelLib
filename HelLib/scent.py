@@ -12,7 +12,7 @@ else:
     notify = Notifier.notify
 
 
-watch_paths = ["{{cookiecutter.package_name}}", "tests"]
+watch_paths = ["Homomorphic_Encryption", "tests"]
 
 
 class Options:

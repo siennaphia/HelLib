@@ -1,5 +1,5 @@
-PROJECT := {{cookiecutter.project_name}}
-PACKAGE := {{cookiecutter.package_name}}
+PROJECT := HelLib
+PACKAGE := Homomorphic_Encryption
 MODULES := $(wildcard $(PACKAGE)/*.py)
 
 # MAIN TASKS ##################################################################

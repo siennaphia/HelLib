@@ -1,7 +1,7 @@
 from importlib.metadata import PackageNotFoundError, version
 
 try:
-    __version__ = version('{{cookiecutter.project_name}}')
+    __version__ = version('HelLib')
 except PackageNotFoundError:
     __version__ = '(local)'
 

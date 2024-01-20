@@ -3,7 +3,7 @@
 """Package entry point."""
 
 
-from {{cookiecutter.package_name}}.cli import main
+from Homomorphic_Encryption.cli import main
 
 
 if __name__ == '__main__':  # pragma: no cover
