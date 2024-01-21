@@ -2,7 +2,7 @@ from seal import (
     KeyGenerator,
 )
 
-def KeyGenerator(context):
+def Key_generator(context):
     # public key and secret key generated from KeyGeneratoer 
     keygen = KeyGenerator(context)
     public_key = keygen.public_key()
