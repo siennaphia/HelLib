@@ -1,0 +1,3 @@
+[submodule "external/seal-regression"]
+	path = external/seal-regression
+	url = https://github.com/Valentyn1997/seal-regression.git
