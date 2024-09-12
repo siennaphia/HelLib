@@ -2,3 +2,7 @@ pybind11
 cppimport
 jupyter
 numpy
+sklearn
+numpy
+pandas
+matplotlib
